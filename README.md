@@ -14,8 +14,8 @@ This is a **Micro-Frontend** container application using **Webpack Module Federa
 
 1. **Clone the repository:**
    
-sh
-   git clone <repository-url>
+
+   git clone <(https://github.com/sharma8437/Micro-frontend-Project.git)>
    cd container
 
 2. **Install dependencies:**
