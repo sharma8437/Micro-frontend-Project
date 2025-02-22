@@ -1,0 +1,34 @@
+/* about.css */
+
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+    background: #f7f9fc;
+    padding: 40px 20px;
+  }
+  
+  .about-content {
+    max-width: 800px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    color: #333;
+    text-align: left;
+  }
+  
+  .about-content h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #4a90e2;
+  }
+  
+  .about-content p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+ 
+  

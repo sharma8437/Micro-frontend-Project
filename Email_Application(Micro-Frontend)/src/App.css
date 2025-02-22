@@ -1,0 +1,125 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f1f3f4;
+  margin: 0;
+  padding: 0;
+}
+
+.sidbar-logo{
+  text-align: left;
+  margin-left: 10px;
+  
+}
+
+.app-container {
+  display: flex;
+  height: 80vh;
+  margin-top: 60px;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 250px;
+  background: #fff;
+  height: 90vh;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  
+}
+.con{
+  display: flex;
+}
+
+.sidebar h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.compose-btn {
+  display: block;
+  background: #7246e9;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+  margin-left: 10px;
+}
+
+.menu li {
+  padding: 10px 0;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Main Content */
+.main-content {
+  flex: 1;
+  padding: 20px;
+}
+
+/* Email List */
+.email-list {
+  background: white;
+  /* padding: 20px; */
+  padding-left: 12px;
+  border-radius: 5px;
+}
+
+.email-item {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+
+}
+
+.email-link {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Email View */
+.email-view {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/* Compose Email */
+.compose-email {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.compose-email input,
+.compose-email textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.send-btn {
+  background: #28a745;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.search-bar{
+  width: 400px;
+  height: 30px;
+}

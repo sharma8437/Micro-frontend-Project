@@ -1,0 +1,52 @@
+/* hero.css */
+
+.hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 95vh;
+    background: linear-gradient(135deg, #85afdf, #50c1c9);
+    color: #fff;
+    padding: 0 40px;
+
+  }
+  
+  .hero-content {
+    max-width: 50%;
+  }
+  
+  .hero-heading {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+  
+  }
+  
+  .hero-subheading {
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+    line-height: 1.5;
+
+  }
+  
+  .cta-button {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    background-color: #ff9800;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .cta-button-hover {
+    transform: scale(1.05);
+    background-color: #7e4722;
+  }
+  
+  .hero-image img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
