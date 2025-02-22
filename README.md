@@ -10,6 +10,11 @@ This is a **Micro-Frontend** container application using **Webpack Module Federa
 - **Babel** (for JSX compilation)
 - **Custom CSS** (No Tailwind used)
 
+- ## webpages
+- <img width="1439" alt="Screenshot 2025-02-23 at 2 37 28 AM" src="https://github.com/user-attachments/assets/21506426-3a18-436c-b636-9d209ccfa712" />
+- <img width="1439" alt="Screenshot 2025-02-23 at 2 37 04 AM" src="https://github.com/user-attachments/assets/09acfadd-8e4e-4662-850e-8674682466ff" />
+
+
 ## 🚀 Setup & Installation
 
 1. **Clone the repository:**
@@ -96,37 +101,8 @@ export default {
 
 
 ## 📦 Package.json
-json
-{
-  "name": "container",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "start": "webpack serve",
-    "dev": "webpack serve",
-    "build": "webpack --mode production"
-  },
-  "dependencies": {
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "react-router-dom": "^7.2.0"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.20.0",
-    "@babel/preset-react": "^7.18.6",
-    "autoprefixer": "^10.4.20",
-    "babel-loader": "^8.3.0",
-    "css-loader": "^6.7.1",
-    "html-webpack-plugin": "^5.5.0",
-    "postcss": "^8.5.3",
-    "postcss-loader": "^8.1.1",
-    "style-loader": "^3.3.1",
-    "webpack": "^5.98.0",
-    "webpack-cli": "^6.0.1",
-    "webpack-dev-server": "^5.2.0"
-  }
-}
+
+<img width="1028" alt="Screenshot 2025-02-23 at 2 35 52 AM" src="https://github.com/user-attachments/assets/0f851b45-c8ae-4ead-a6d9-cc736b37784e" />
 
 
 ## 🌍 Module Federation in Webpack
