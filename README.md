@@ -119,9 +119,9 @@ Each micro-frontend should expose its own remoteEntry.js file for integration.
 ---
 
 ### 🎯 Key Takeaways
-✅ Uses Webpack 5 Module Federation to integrate micro-frontends
-✅ React 19 with custom CSS (No Tailwind)
-✅ Supports React Router DOM for navigation
-✅ Babel for JSX transformation
-✅ Works in development and production
+ - ✅ Uses Webpack 5 Module Federation to integrate micro-frontends
+- ✅ React 19 with custom CSS (No Tailwind)
+- ✅ Supports React Router DOM for navigation
+- ✅ Babel for JSX transformation
+- ✅ Works in development and production
 
