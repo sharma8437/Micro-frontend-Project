@@ -42,8 +42,8 @@ export default {
     new ModuleFederationPlugin({
       name: "container",
       remotes: {
-        chat: "chat@http://localhost:5174/remoteEntry.js",
-        email: "email@http://localhost:5175/remoteEntry.js",
+        chat: "chat@https://micro-frontend-chat.netlify.app/remoteEntry.js",
+        email: "email@https://micro-frontend-email.netlify.app/remoteEntry.js",
       },
       shared: {
         react: { singleton: true },
