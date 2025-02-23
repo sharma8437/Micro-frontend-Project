@@ -111,8 +111,8 @@ export default {
 ## 🌍 Module Federation in Webpack
 Module Federation allows this container app to dynamically load micro-frontends at runtime. The remotes are defined in **webpack.config.js** under remotes.
 
-- email -> http://localhost:5174/remoteEntry.js
-- chat -> http://localhost:5175/remoteEntry.js
+- email -> https://micro-frontend-email.netlify.app/
+- chat -> https://micro-frontend-chat.netlify.app/
 
 Each micro-frontend should expose its own remoteEntry.js file for integration.
 
