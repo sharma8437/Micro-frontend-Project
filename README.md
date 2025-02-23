@@ -28,17 +28,17 @@ This is a **Micro-Frontend**  application project using **Webpack Module Federat
 
 2. **Install dependencies:**
    
-sh
+
    npm install
 
 3. **Run the development server:**
    
-sh
+
    npm run dev
 
 4. **Build for production:**
    
-sh
+
    npm run build
 
 
